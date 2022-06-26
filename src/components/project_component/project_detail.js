@@ -2,7 +2,7 @@ import peppfry from "./pepprfry.png";
 import hbo from "./HBO home.png";
 import shien from "./shein-project.png";
 import weather from "./weather.png"
-
+import admin from "./adminui.png"
 
 const project_data = [
   {
@@ -40,6 +40,15 @@ const project_data = [
     tech_stack: "REACT | CSS ",
     git_link: "https://github.com/sumit7195/Weather_app",
     deployed_link: "https://weather-app-amber-tau.vercel.app",
+  },
+  {
+    img: admin,
+    heading_1: "Admin-UI App",
+    heading_2:
+      "It is admin UI app in which we can manage the users like delete,update, and search etc",
+    tech_stack: "HTML | CSS |JAVASCRIPT | REACT ",
+    git_link: "https://github.com/sumit7195/admin_ui",
+    deployed_link: "https://admin-ui-netlify.netlify.app/",
   },
 ];
 
