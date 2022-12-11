@@ -7,7 +7,7 @@ const Sidephoto = () => {
     return (
       <div className="sidephoto">
         <div className='innerphoto'>
-          <img src={pic} alt="this is icon" />
+          <img src={pic} alt="this is icon" className='blend-img'/>
         </div>
 
          <ButtonPort/>

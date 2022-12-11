@@ -1,11 +1,11 @@
 import React from 'react';
-import portfolio  from "./Sumit Kumar Resume.pdf"
+import portfolio  from "./sumit kumar resume3.pdf"
 
 
 const ButtonPort = () => {
     return (
       
-        <div className="btn">
+        <div className="btn" style={{zIndex:"500"}}>
           <a href={portfolio} download="resume">
             GET CV
           </a>
